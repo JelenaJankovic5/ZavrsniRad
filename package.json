@@ -1,0 +1,20 @@
+{
+  "name": "bla",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pokrenuti prvi": "cypress run --spec cypress/e2e/Tests/logInPage.cy.js",
+    "pokrenuti drugi": "cypress run --spec cypress/e2e/Tests/createArticle.cy.js",
+    "pokrenuti treci": "cypress run --spec cypress/e2e/Tests/favorite.cy.js",
+    "pokrenuti cetvrti": "cypress run --spec cypress/e2e/Tests/settings.cy.js",
+    "pokrenuti peti": "cypress run --spec cypress/e2e/Tests/editDeleteArticle.cy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.14.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
